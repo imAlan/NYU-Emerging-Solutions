@@ -53,7 +53,7 @@ body {
       rgba(0, 0, 0, 0.60), 
       rgba(0, 0, 0, 0.60)
 
-    ),#FFFFFF url("../css/nyu-mainpage.png") center center scroll;
+    ),#FFFFFF url("../images/nyu-mainpage.png") center center scroll;
 	background-size: cover;
 	font-family: 'Source Sans Pro', sans-serif;
 	position: relative;
