@@ -928,7 +928,7 @@ black - #000000
 	background:linear-gradient(
       rgba(0, 0, 0, 0.60), 
       rgba(0, 0, 0, 0.60)
-    ),#FFFFFF url("NYUFlag_05_NickJohnson.jpg") center center scroll;
+    ),#FFFFFF url("../css/NYUFlag_05_NickJohnson.jpg") center center scroll;
 
 	padding-top:5px;
 	padding-right:5%;
