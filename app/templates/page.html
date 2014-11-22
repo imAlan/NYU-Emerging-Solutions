@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>NYU Emerging Solutions</title>
+</head>
+<body>
+    <div style="text-align: center">
+        <form name="signin">
+            <h2>Sign In</h2>
+            {{ sForm.hidden_tag() }}
+            {{ sForm.email.label }}
+            {{ sForm.email() }}
+            <br>
+            {{ sForm.password.label }}
+            {{ sForm.password() }}
+            <br>
+            {{ sForm.submit() }}
+        </form>
+    </div>
+    <div style="text-align:center;padding-top: 50px;">
+        <h2>Document</h2>
+        <form name="document">
+            {{ dForm.hidden_tag() }}
+            {{ dForm.title.label }}
+            {{ dForm.title() }}
+            <br>
+            {{ dForm.description.label }}
+            {{ dForm.description() }}
+            <br>
+            {{ dForm.location.label }}
+            {{ dForm.location() }}
+            <br>
+            {{ dForm.issue_idea.label }}
+            {{ dForm.issue_idea() }}
+            <br>
+            {{ dForm.category.label }}
+            {{ dForm.category() }}
+            <br>
+            {{ dForm.submit() }}
+        </form>
+    </div>
+    <div style="text-align: center;padding-top: 50px;">
+        <h2>Comment</h2>
+        <form name="comment">
+            {{ cForm.title.label }}
+            {{ cForm.title() }}
+            <br>
+            {{ cForm.description.label }}
+            {{ cForm.description() }}
+            <br>
+            {{ cForm.submit() }}
+        </form>
+    </div>
+</body>
+</html>

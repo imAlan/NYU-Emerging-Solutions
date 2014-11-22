@@ -39,9 +39,10 @@ class Document(db.Model):
     description = db.Column(db.Text,nullable=False)
     submitter = db.Column(db.Integer, db.ForeignKey('user.id'))
     location = db.Column(db.String(255),nullable=True)
-    issue_idea = db.Column(db.Enum('Issue','Idea'),nullable=False)
+    issue_idea = db.Column(db.Enum('Issue','Idea'), default='Issue')
     category = db.Column(db.String(255),nullable=True)
     date = db.Column(db.DateTime,nullable=False, default=datetime.datetime.now())
+    filename = db.Column(db.String(255))
     votes = db.relationship('Votes', backref='document',lazy='dynamic')
 
 class Votes(db.Model):
