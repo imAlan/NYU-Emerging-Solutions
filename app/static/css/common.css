@@ -913,7 +913,7 @@ black - #000000
 	}
 	
 		#navPanel a {
-			border-top: solid 2px #555;
+			border-top: solid 2px white;
 			color: #fff;
 			display: block;
 			text-decoration: none;
