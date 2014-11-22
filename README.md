@@ -7,19 +7,29 @@ After a post reaches a certain number of votes it requires the NYU Administrator
 Tech Stack
 =====
 Flask
+
 Python
+
 HTML5
+
 CSS3
+
 Javascript
+
 JQuery
+
 Illustrator
+
 D3.js
 
 Team Members
 ============
 Alan Chen 
+
 Ken Chan
+
 Alvi Kabir
+
 Ayanna Seals
 
 Made at Create a Better NYU Hackathon
