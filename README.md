@@ -29,13 +29,13 @@ D3.js
 
 Team Members
 ============
-Alan Chen 
+Alan Chen - Backend Developer
 
-Ken Chan
+Alvi Kabir - Backend Developer
 
-Alvi Kabir
+Ken Chan - Frontend Developer
 
-Ayanna Seals
+Ayanna Seals - UX Designer
 
 Design
 ======
