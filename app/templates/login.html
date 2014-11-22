@@ -4,6 +4,24 @@
 <title>Sign In form</title>
 <link rel="stylesheet" type="text/css" href="../static/css/login.css">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+	$(function() {
+      $('.login-form>input[type="submit"]').bind('click', function() {
+       	
+       	json_data = {"username": $('#user_login').val(), "password": $('#user_pass').val()}
+
+	    $.ajax({
+	    	type: 'POST',
+	   	 	url: '/_add_numbers',
+	   	 	data: {json: JSON.stringify(json_data)},
+	    	dataType: 'json'
+		});
+
+        return false;
+      });
+    });
+
+</script>
 </head>
 
 <body>
@@ -13,7 +31,7 @@
 		It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 		Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 	</p>
-	<form class="overlay" name="loginform" id="loginform" action="#" method="post" class="wpl-track-me">
+	<form class="login-form overlay" name="loginform" id="loginform" action="#" method="post" class="wpl-track-me">
 		<p class="login-username"> 
 			<label for="user_login">Email</label> <input type="text" name="log" id="user_login" class="input" value="" size="20" placeholder="Email"> 
 		</p>
