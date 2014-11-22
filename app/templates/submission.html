@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>NYU Emerging Solutions</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/login.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="main" class="container" style="text-align:center;padding-top: 50px;">
+        <h2>Document</h2>
+        <form name="document" method="POST" action="" enctype=multipart/form-data>
+
+            {{ dForm.hidden_tag() }}
+            {{ dForm.title.label }}
+            {{ dForm.title() }}
+            <br>
+            {{ dForm.description.label }}
+            {{ dForm.description() }}
+            <br>
+            {{ dForm.location.label }}
+            {{ dForm.location() }}
+            <br>
+            {{ dForm.issue_idea.label }}
+            {{ dForm.issue_idea() }}
+            <br>
+            {{ dForm.category.label }}
+            {{ dForm.category() }}
+            <br>
+            {{ dForm.submit() }}
+            <br>
+            <label for="picture">Upload Picture</label>
+            <input id="picture" type="file" name="file" title="Browse">
+        </form>
+    </div>
+</body>
+</html>

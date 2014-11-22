@@ -14,7 +14,7 @@ class documentForm(Form):
     description = TextAreaField('Description:', validators=[InputRequired(message="This field is required")])
     location = StringField('Location:')
     issue_idea = SelectField('Type:', choices=[('Issue','Issue'), ('Idea','Idea')])
-    category = SelectField('Type:', choices=[('Housing','Housing'), ('Technology','Technology')])
+    category = SelectField('Category:', choices=[('Housing','Housing'), ('Technology','Technology')])
     submit = SubmitField('Submit')
 
 
