@@ -48,7 +48,12 @@ html, body, div, span, applet, object, iframe,
 /* Reset End */
 
 body {
-	background: url("http://www.inboundnow.com/wp-content/uploads/2014/07/bg.jpg") no-repeat center center fixed;
+
+	background:linear-gradient(
+      rgba(0, 0, 0, 0.60), 
+      rgba(0, 0, 0, 0.60)
+
+    ),#FFFFFF url("../css/nyu-mainpage.png") center center scroll;
 	background-size: cover;
 	font-family: 'Source Sans Pro', sans-serif;
 	position: relative;
