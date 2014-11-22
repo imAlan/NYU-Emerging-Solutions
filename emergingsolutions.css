@@ -1,28 +1,410 @@
+.NormalCharacterStyle22
+{
+  font-family : Open Sans;
+  font-size : 13px;
+  color : #572D88;
+  color : rgb(87, 45, 136);
+}
+.image5
+{
+  background-image : url(image5.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
 .st0
+{
+  background : #572D88;
+  background : rgba(87, 45, 136, 1);
+}
+.image3
+{
+  background-image : url(image3.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.st1
+{
+  background : #572D88;
+  background : rgba(87, 45, 136, 1);
+}
+.st2
+{
+  background : #1B0F2C;
+  background : rgba(27, 15, 44, 1);
+}
+.st3
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  box-shadow : 2px 2px 5px rgba(35, 31, 32, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='#231F20') ;
+}
+.st4
+{
+  background : #572D88;
+  background : rgba(87, 45, 136, 1);
+  box-shadow : 2px 2px 5px rgba(35, 31, 32, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='#231F20') ;
+}
+.st5
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  border-style : Solid;
+  border-color : #BCBEC0;
+  border-color : rgba(188, 190, 192, 1);
+  border-width : 1px;
+}
+.image4
+{
+  background-image : url(image4.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.st6
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+}
+.NormalCharacterStyle26
+{
+  font-family : Open Sans;
+  font-size : 17px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle25
+{
+  font-family : Open Sans;
+  font-size : 11px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle27
+{
+  font-family : Open Sans;
+  font-size : 17px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle24
+{
+  font-family : Open Sans;
+  font-size : 13px;
+  color : #000000;
+  color : rgb(0, 0, 0);
+}
+.NormalCharacterStyle23
+{
+  font-family : Open Sans;
+  font-weight : bold;
+  font-size : 14px;
+  color : #572D88;
+  color : rgb(87, 45, 136);
+}
+.TeJKpp_2_
+{
+  background-image : url(TeJKpp_2_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.st7
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  border-radius : 6px;
+  -moz-border-radius : 6px;
+  -webkit-border-radius : 6px;
+}
+.st8
 {
   background : #000000;
   background : rgba(0, 0, 0, 1);
   opacity : 0.6;
   filter: alpha(opacity=60) progid:DXImageTransform.Microsoft.Alpha(opacity=60) ;
 }
+.st9
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  box-shadow : 4px 4px 5px rgba(35, 31, 32, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=4, OffY=4, Color='#231F20') ;
+}
+.st10
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  border-style : Solid;
+  border-color : #FFFFFF;
+  border-color : rgba(255, 255, 255, 1);
+  border-width : 0px;
+}
+.TeJKpp_12_
+{
+  background-image : url(TeJKpp_12_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.st11
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  border-style : Solid;
+  border-color : #231F20;
+  border-color : rgba(35, 31, 32, 1);
+  border-width : 0px;
+}
+.TeJKpp_22_
+{
+  background-image : url(TeJKpp_22_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.st12
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  box-shadow : 4px 4px 5px rgba(35, 31, 32, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=4, OffY=4, Color='#231F20') ;
+}
+.TeJKpp_8_
+{
+  background-image : url(TeJKpp_8_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.image2
+{
+  background-image : url(image2.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.x34__4_
+{
+  background-image : url(x34__4_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.TeJKpp_1_
+{
+  background-image : url(TeJKpp_1_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.TeJKpp_4_
+{
+  background-image : url(TeJKpp_4_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.image1
+{
+  background-image : url(image1.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.st13
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  border-style : Solid;
+  border-color : #231F20;
+  border-color : rgba(35, 31, 32, 1);
+  border-width : 0px;
+}
+.st14
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  border-style : Solid;
+  border-color : #231F20;
+  border-color : rgba(35, 31, 32, 1);
+  border-width : 0px;
+}
+.st15
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  box-shadow : 4px 4px 5px rgba(35, 31, 32, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=4, OffY=4, Color='#231F20') ;
+}
+.TeJKpp_26_
+{
+  background-image : url(TeJKpp_26_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.st16
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  box-shadow : 4px 4px 5px rgba(35, 31, 32, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=4, OffY=4, Color='#231F20') ;
+}
+.st17
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  border-style : Solid;
+  border-color : #FFFFFF;
+  border-color : rgba(255, 255, 255, 1);
+  border-width : 0px;
+}
+.st18
+{
+  background : #572D88;
+  background : rgba(87, 45, 136, 1);
+  border-radius : 2px;
+  -moz-border-radius : 2px;
+  -webkit-border-radius : 2px;
+}
+.st19
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  box-shadow : 4px 4px 5px rgba(35, 31, 32, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=4, OffY=4, Color='#231F20') ;
+}
+.image
+{
+  background-image : url(image.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.TeJKpp_17_
+{
+  background-image : url(TeJKpp_17_.png);
+  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
+  background-repeat : no-repeat;
+}
+.st20
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+}
+.st21
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  box-shadow : 4px 4px 5px rgba(35, 31, 32, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=4, OffY=4, Color='#231F20') ;
+}
+.st22
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  box-shadow : 4px 4px 5px rgba(35, 31, 32, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=4, OffY=4, Color='#231F20') ;
+}
+.st23
+{
+  background : #FFFFFF;
+  background : rgba(255, 255, 255, 1);
+  box-shadow : 4px 4px 5px rgba(35, 31, 32, 0.75);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=4, OffY=4, Color='#231F20') ;
+}
+.NormalCharacterStyle13
+{
+  font-family : Open Sans;
+  font-size : 10px;
+  color : #BCBEC0;
+  color : rgb(188, 190, 192);
+}
+.NormalCharacterStyle15
+{
+  font-family : Open Sans;
+  font-size : 10px;
+  color : #BCBEC0;
+  color : rgb(188, 190, 192);
+}
+.NormalCharacterStyle19
+{
+  font-family : Open Sans;
+  font-size : 10px;
+  color : #BCBEC0;
+  color : rgb(188, 190, 192);
+}
 .NormalCharacterStyle7
 {
   font-family : Open Sans;
-  font-size : 14px;
-  color : #572D88;
-  color : rgb(87, 45, 136);
+  font-size : 10px;
+  color : #BCBEC0;
+  color : rgb(188, 190, 192);
 }
 .NormalCharacterStyle9
 {
   font-family : Open Sans;
-  font-size : 14px;
+  font-size : 10px;
+  color : #BCBEC0;
+  color : rgb(188, 190, 192);
+}
+.NormalCharacterStyle10
+{
+  font-family : Open Sans;
+  font-size : 13px;
   color : #572D88;
   color : rgb(87, 45, 136);
+}
+.NormalCharacterStyle11
+{
+  font-family : Open Sans;
+  font-size : 10px;
+  color : #BCBEC0;
+  color : rgb(188, 190, 192);
+}
+.NormalCharacterStyle20
+{
+  font-family : Open Sans;
+  font-size : 13px;
+  color : #572D88;
+  color : rgb(87, 45, 136);
+}
+.NormalCharacterStyle17
+{
+  font-family : Open Sans;
+  font-size : 10px;
+  color : #BCBEC0;
+  color : rgb(188, 190, 192);
 }
 .NormalCharacterStyle8
 {
   font-family : Open Sans;
-  font-size : 14px;
+  font-size : 13px;
+  color : #572D88;
+  color : rgb(87, 45, 136);
+}
+.NormalCharacterStyle14
+{
+  font-family : Open Sans;
+  font-size : 13px;
+  color : #572D88;
+  color : rgb(87, 45, 136);
+}
+.NormalCharacterStyle16
+{
+  font-family : Open Sans;
+  font-size : 13px;
+  color : #572D88;
+  color : rgb(87, 45, 136);
+}
+.NormalCharacterStyle21
+{
+  font-family : Open Sans;
+  font-size : 10px;
+  color : #BCBEC0;
+  color : rgb(188, 190, 192);
+}
+.NormalCharacterStyle12
+{
+  font-family : Open Sans;
+  font-size : 13px;
+  color : #572D88;
+  color : rgb(87, 45, 136);
+}
+.NormalCharacterStyle18
+{
+  font-family : Open Sans;
+  font-size : 13px;
   color : #572D88;
   color : rgb(87, 45, 136);
 }
@@ -30,48 +412,48 @@
 {
   font-family : Open Sans;
   font-size : 14px;
-  color : #FFFFFF;
-  color : rgb(255, 255, 255);
+  color : #000000;
+  color : rgb(0, 0, 0);
 }
 .NormalCharacterStyle6
 {
   font-family : Open Sans;
-  font-size : 14px;
-  color : #572D88;
-  color : rgb(87, 45, 136);
+  font-size : 17px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
 }
 .NormalCharacterStyle1
 {
   font-family : Open Sans;
-  font-size : 14px;
-  color : #FFFFFF;
-  color : rgb(255, 255, 255);
+  font-size : 13px;
+  color : #6D6E71;
+  color : rgb(109, 110, 113);
 }
 .NormalCharacterStyle3
 {
   font-family : Open Sans;
-  font-size : 14px;
-  color : #FFFFFF;
-  color : rgb(255, 255, 255);
+  font-size : 13px;
+  color : #6D6E71;
+  color : rgb(109, 110, 113);
 }
 .NormalCharacterStyle5
 {
   font-family : Open Sans;
   font-size : 14px;
-  color : #572D88;
-  color : rgb(87, 45, 136);
+  color : #000000;
+  color : rgb(0, 0, 0);
 }
 .NormalCharacterStyle2
 {
   font-family : Open Sans;
-  font-size : 14px;
-  color : #FFFFFF;
-  color : rgb(255, 255, 255);
+  font-size : 13px;
+  color : #6D6E71;
+  color : rgb(109, 110, 113);
 }
 .NormalCharacterStyle
 {
   font-family : Open Sans;
-  font-size : 14px;
+  font-size : 13px;
   color : #FFFFFF;
   color : rgb(255, 255, 255);
 }
