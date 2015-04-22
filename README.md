@@ -8,6 +8,10 @@ Made at Create a Better NYU Hackathon 2014
 
 Runner-up and Most Impactful Hack Award 
 
+**Received NYU's C3 Innovation Grant**
+
+http://www.nyu.edu/about/leadership-university-administration/university-senate/membership/councils/student-senators-council/campus-coding-collaborative/innovation-grants.html 
+
 
 Tech Stack
 =====
